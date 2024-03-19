@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify -Your favourite music  </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="unnamed.png" alt="Spotify" width="50px" height="50px">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Best of Songs</h1>
+
+        <div class="songList"></div>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img alt="covers/TNY-Best-Music.gif">
+                <span class="songName">Kehdo tumhe</span>
+                <span class="songListplay"><span class="timestamp">2:53</span><i id="0" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img  alt="covers/TNY-Best-Music.gif">
+                <span class="songName">O meri Laila</span>
+                <span class="songListplay"><span class="timestamp">3:53</span><i id="1" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Ram Darshan</span>
+                <span class="songListplay"><span class="timestamp">3:42</span><i id="2" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Apna bna le</span>
+                <span class="songListplay"><span class="timestamp">4:03</span><i id="3" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Sick Kick </span>
+                <span class="songListplay"><span class="timestamp">3:56</span><i id="4" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Radhe Title</span>
+                <span class="songListplay"><span class="timestamp">4:04</span><i id="5" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Laare Choote</span>
+                <span class="songListplay"><span class="timestamp">2:33</span><i id="6" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Lambiyan</span>  
+                <span class="songListplay"><span class="timestamp">3:33</span><i id="7" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="Bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class=" fas fa-2x fa-step-backward" id="previous"></i>
+            <i class=" far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="wave2.gif" alt="" width="42px" id="gif"> <span id="masterSongName">Kehdo tumhe - SasuSaku</span>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+    <script src="https://kit.fontawesome.com/1fe8059835.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
